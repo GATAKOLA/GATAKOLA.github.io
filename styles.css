@@ -209,3 +209,31 @@ footer{width:min(calc(100% - 40px),var(--max));margin:auto;border-top:1px solid 
   .achievement-grid{grid-template-columns:1fr}
   .achievement-card{min-height:0}
 }
+
+
+/* Mobile polish */
+@media(max-width:560px){
+  .topbar{height:68px}
+  .hero-text-only{padding:42px 0 54px}
+  .hero-centered h1{
+    font-size:39px;
+    line-height:1.03;
+    margin-bottom:20px;
+  }
+  .hero-centered .eyebrow{margin-bottom:12px}
+  .hero-centered .lead{
+    font-size:18px;
+    line-height:1.55;
+    margin-bottom:14px;
+  }
+  .hero-centered .hero-note{
+    margin-top:10px;
+    margin-bottom:0;
+    line-height:1.45;
+  }
+  .hero-centered .actions{
+    margin:22px 0 18px;
+    gap:10px;
+  }
+  .hero-centered .chips{margin-top:14px}
+}
